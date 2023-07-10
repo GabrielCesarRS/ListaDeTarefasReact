@@ -1,0 +1,47 @@
+.main{
+  background-color: rgb(218, 235, 240);
+  border-radius: 20px;
+  margin: auto;
+}
+.main h4{
+  font-size: 2em;
+  padding: 20px;
+  background: linear-gradient(to bottom, blueviolet, 50%, violet);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 2px double rgb(217, 99, 247);
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: white;
+  text-align: center;
+}
+.main input{
+  margin: 50px 33px;
+  width: 400px;
+  border-radius: 24px;
+  height: 50px;
+  border: 2px solid rgb(185, 94, 173);
+}
+.main button{
+  margin: 50px 33px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: transparent;
+  background: radial-gradient(rgb(168, 45, 148), 50%, rgb(255, 106, 205));
+  transition: all .5s;
+  margin-left: 20px;
+  color: white;
+}
+.main button:hover{
+  background: radial-gradient(rgba(143, 45, 168, 0.685), 50%, rgba(195, 106, 255, 0.801));
+  cursor: pointer;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form input[type="text"] {
+  min-width: 50%;
+}
